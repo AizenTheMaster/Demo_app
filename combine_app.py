@@ -18,7 +18,7 @@ heart_scaler = heart_model_data['scaler']
 with st.sidebar:
     selected = option_menu(
         'Made By Badmosh',
-        ['🩸 Diabetes Prediction', '❤️ Heart Disease Prediction', '🧍 Parkinson’s Prediction'],
+        [' Diabetes Prediction', ' Heart Disease Prediction', ' Parkinson’s Prediction'],
         icons=['activity', 'heart', 'person'],
         default_index=0
     )
