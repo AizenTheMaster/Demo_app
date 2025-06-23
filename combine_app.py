@@ -5,9 +5,9 @@ from streamlit_option_menu import option_menu
 import numpy as np
 
 
-diabetes_model = pickle.load(open("C:/Users/himan/.spyder-py3/code/multiple/diabetes_model1.sav", 'rb'))
-heart_model_data = pickle.load(open("C:/Users/himan/.spyder-py3/code/multiple/heart_disease_model.sav", 'rb'))
-parkinson_model = pickle.load(open("C:/Users/himan/.spyder-py3/code/multiple/parkinsons_model.sav", 'rb'))
+diabetes_model = pickle.load(open('diabetes_model1.sav', 'rb'))
+heart_model_data = pickle.load(open('heart_disease_model.sav', 'rb'))
+parkinson_model = pickle.load(open('parkinsons_model.sav', 'rb'))
 
 
 # Handle dict-based heart model
